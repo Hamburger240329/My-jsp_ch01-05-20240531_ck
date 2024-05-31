@@ -33,8 +33,8 @@
 	<br> 
 	성별 : <%=gender %>
 	<br> 
-	취미 : 
-	<%
+	취미 :
+	<% 
 		if(hobbys != null){ // 값이 존재할 경우 - null 값이아닐경우 
 			for(int i=0;i<hobbys.length;i++){
 				//System.out.println(hobbys[i]); // 콘솔창 출력 - System : 콘솔창에 출력
